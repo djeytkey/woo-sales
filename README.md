@@ -1,4 +1,4 @@
-# WooSales (boukjijtarik/wooSales)
+# Woo Reports (boukjijtarik/woo-reports)
 
 Laravel package to fetch WooCommerce orders and items using Eloquent (no REST API), show them in a DataTable with Excel export, and auto-export if the result exceeds a threshold.
 
@@ -9,7 +9,7 @@ Laravel package to fetch WooCommerce orders and items using Eloquent (no REST AP
 
 ## Install
 ```bash
-composer require boukjijtarik/woosales
+composer require boukjijtarik/woo-reports
 ```
 
 If discovery is disabled, register `Boukjijtarik\\WooSales\\WooSalesServiceProvider::class` in `config/app.php`.
