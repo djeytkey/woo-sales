@@ -1,0 +1,32 @@
+{
+  "name": "boukjijtarik/wooSales",
+  "description": "Laravel Packageto fetch WooCommerce orders report",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tarik Boukjij",
+      "email": "tarik.engineering@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "illuminate/support": "^10.0 || ^11.0 || ^12.0",
+    "maatwebsite/excel": "^3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Boukjijtarik\\WooSales\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Boukjijtarik\\WooSales\\WooSalesServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
+
